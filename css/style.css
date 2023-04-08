@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+
+}
+
+.body-cont{
+    box-shadow: 4px 5px 10px black;
+    width: 450px;
+    background-color: rgb(53, 54, 53);
+}
+
+.first-section{
+    background-color: rgb(104, 110, 106);
+    color: rgb(204, 198, 198);
+    width: 100%;
+}
+
+.first-section .first-cont{
+   display: flex;
+   margin:0 10px;
+   padding-top: 10px;
+   justify-content: space-between;
+   padding-bottom: 25px;
+} 
+
+.first-section .icon1 .fa-solid{
+    padding:0 10px;
+}
+
+.second-cont{
+    background-color:rgb(104, 110, 106) ;
+    position: sticky;
+    top: 0;
+    color: rgb(204, 198, 198);
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    padding-top:10px ;
+}
+
+.second-cont ul{
+    list-style: none;
+}
+
+.second-cont li a{
+    color: rgb(204, 198, 198);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.second-cont .sp{
+    background-color: rgb(204, 198, 198) ;
+    font-size: 13px;
+    padding: 1px 6px; 
+    color: black; 
+    border-radius: 9999px;
+}
+
+.c1 li a:visited{
+    border-bottom: 3px solid red;
+}
+
+
+.second-cont .sp:active{
+    background-color: rgb(34, 211, 87);
+}
+
+.second-cont li a:active{
+    color: rgb(34, 211, 87);
+}
+
+
+.second-section .s-cont img{
+    width: 40px;
+    height: 40px;
+    border-radius: 9999px;
+}
+
+.s-cont .fa-check{
+    font-size: 13px;
+}
+
+.second-section .cont a{
+    text-decoration: none;
+}
+
+.second-section .cont a .s-cont:hover{
+    background-color:rgba(204, 198, 198, 0.226) ;
+}
+
+.second-section .s-cont{
+    display: flex;
+}
+
+.second-section .s-cont .wrt{
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.second-section .s-cont .wrt h4{
+    color: white;
+}
+
+.second-section .s-cont .wrt p{
+    color:rgb(204, 198, 198) ;
+}
+
+.second-section .s-cont{
+    padding: 10px 10px;
+}
+
+.second-section .s-cont .tm{
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    color: rgb(34, 211, 87);
+}
+
+.second-section .s-cont .tm p{
+    color: black;
+    background-color: rgb(34, 211, 87);
+    text-align: center;
+    width: 18px;
+    margin-left: 30px;
+    border-radius:50%;
+}
+
+.second-section .btn{
+    position: fixed;
+    top: 90vh;
+    left: 60%;
+
+}
+
+.second-section .btn a i{
+    color: white;
+    background-color: rgb(34, 211, 87) ;
+    padding: 15px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.foot{
+    color:rgb(204, 198, 198) ;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 0 45px 0;
+}
+
+
+.foot span a{
+    text-decoration: none;
+    color: rgb(34, 211, 87);
+}
+
+.foot i{
+    font-size: 10px;
+}
+
+@media(max-width:888px){
+    
+    .second-section .btn{
+        position: fixed;
+        top: 90vh;
+        left: 69%;
+    
+    }
+}
